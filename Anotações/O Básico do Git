@@ -1,0 +1,193 @@
+O Básico do Git
+
+
+Git add, commit e status:
+
+Pra saber sobre o status do projeto:
+
+git status
+
+Para adicionar o arquivo no projeto:
+
+git add (nome do projeto)
+
+git add . (pra adicionar tudo)
+
+Agora vamos rastrear o arquivo do projeto:
+
+git commit -m "aqui você coloca o comentario"
+
+Agora vamos adicionar e comentar o projeto de uma vez:
+
+git commit -am "aqui você coloca o comentario"
+
+
+Git log e checkout - como eu vejo versões anteriores:
+
+Mostra o historio de commit:
+
+git log 
+
+Para rastrear:
+
+git checkout (numero de ratreio que vc acha no log)
+
+Pra voltar para o rastreio do projeto:
+
+git checkout master ou main
+
+Para colnar o repositorio:
+
+git clone (o link do github)
+
+Para entrar na pasta dentro do seu projeto:
+
+cd (nome do projeto)
+
+Para ver os arquivos que tem dentro da pasta:
+
+ls
+
+Para ciclonizar o git com o github:
+
+git push origin main ou master
+
+
+Para puxar as informações do github pro seu pc:
+
+git pull origin main ou master
+
+
+
+Para criar branch:
+
+git branch (nome da nova branch)
+
+Para saber se foi criada a branch:
+
+git branch
+
+Para entrar na branch:
+
+git checkout (nome da nova branch)
+
+Para voltar para a principal:
+
+git checkout master ou main
+
+
+para fazer um merge tem que esta dentro da master ou main
+
+comando para dar o merge:
+
+git merge (nome da branch que quer fazer a junção)
+
+comando pra dar um mini grafico dos commit's
+
+git log --graph
+
+Log mas detalhado onde esta a head:
+
+git log --decorate --oneline
+
+para deletar uma branch antiga:
+
+git branch -d (nome da branch)
+
+Comando pra entrar diretamente na branch nova:
+
+git checkout -b (nome da branch)
+
+Para ver o rastreio de uma forma simplificada:
+
+git log --graph --oneline
+
+git log --oneline --graph
+
+
+git checkout (nome do arquivo)
+
+git reset head (nome do arquivo)
+
+Volta um commit 
+git reset head^
+
+Volta dois commit: 
+git reset head^^
+
+parar de rastrear o arquivo:
+
+git rm --cached (nome do arquivo)
+
+Apagar todas alterações
+
+git reset --hard(cod first)
+
+Fork e sincronia de repositórios:
+
+git add remote upstream(endereço do github)
+
+git pull upstreal(master ou main)
+
+git push origin master ou main
+
+
+Para saber quantos repositorios tem no remoto:
+git remote -v
+
+Desfazendo operações com checkout e reset:
+
+git rebase master
+
+
+Conceitos do Fork Workflow.
+
+Revisando o Fluxo 
+
+-Fork
+-git clone
+-git checkout -b, git add, git commit
+-git push
+-Pull request
+-git pull upstream, git push
+
+Excluir brach
+
+git branch -D(nome da branch)
+
+git push -d Origin (nome da branch)
+
+Conceitos do Github Workflow:
+- git clone
+- git checkout -b, git add, git commit
+- git push
+- pull request 
+- git pull
+
+----------------------------------
+
+git Stash
+
+git stash apply
+
+git stash save (comentario)
+
+git stash list
+
+git stash deop
+
+git stash show --patch
+
+git stash pop
+
+git stash --keep-index
+
+git stash show
+
+git stash show --patch
+
+git stash list --stat
+
+git stash -u 
+
+
