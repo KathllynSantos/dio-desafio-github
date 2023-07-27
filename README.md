@@ -3,5 +3,5 @@
 ### Nesse primeiro contato aprendi boas práticas do Git e GitHub.
 
 <p> Vou Deixar aqui guardao algumas informações que absorvi do curso.
-Em brebe estarei atualizando esse Repositorio e deixando ele mais perfeito.</p>
+Em breve estarei atualizando esse Repositorio e deixando ele mais perfeito.</p>
 
